@@ -27,13 +27,22 @@ dependencies {
   	compile group: 'com.google.guava', name: 'guava', version: '23.0'
 	// https://mvnrepository.com/artifact/org.javalite/activejdbc
    	compile group: 'org.javalite', name: 'activejdbc', version: '1.4.13.j7'
+   	// https://mvnrepository.com/artifact/com.jgoodies/jgoodies-binding
+	compile group: 'com.jgoodies', name: 'jgoodies-binding', version: '2.13.0'
+   	// https://mvnrepository.com/artifact/com.jgoodies/jgoodies-common
+	compile group: 'com.jgoodies', name: 'jgoodies-common', version: '1.8.1'
+   	// https://mvnrepository.com/artifact/com.jgoodies/jgoodies-forms
+	compile group: 'com.jgoodies', name: 'jgoodies-forms', version: '1.9.0'
+   	// https://mvnrepository.com/artifact/com.jgoodies/jgoodies-looks
+	compile group: 'com.jgoodies', name: 'jgoodies-looks', version: '2.7.0'
+	// https://mvnrepository.com/artifact/com.jgoodies/jgoodies-validation
+	compile group: 'com.jgoodies', name: 'jgoodies-validation', version: '2.5.1'
    	// https://mvnrepository.com/artifact/org.slf4j/slf4j-api
    	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.8.0-alpha2'
    	// https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
    	compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.8.0-alpha2'
    	// https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc
    	compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.20.0'
-
 }
 
 //mainClassName = "de.clearit.kindergarten.application.KindergartenLauncher"
